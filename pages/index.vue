@@ -91,7 +91,10 @@ const handleSubmit = async () => {
           text: "Invalid Username and Password",
         });
       } else {
-        console.log(data.value);
+        localStorage.setItem(config.token, data.value.token);
+        localStorage.setItem("nuxt_erp_user_id", data.value.id);
+        navigateTo("/home");
+        console.log("Response data:", data.value);
       }
     }
   } catch (error) {

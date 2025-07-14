@@ -1,5 +1,9 @@
-<script setup></script>
+<script setup>
+definePageMeta({
+  layout: "admin",
+});
+</script>
 
 <template>
-    <h1>Kome</h1>
+  <h1>Home</h1>
 </template>
