@@ -22,7 +22,7 @@ onMounted(() => {
 
 <template>
   <div
-    class="fixed inset-0 bg-gray-300/50 flex justify-center items-center shadow-lg"
+    class="fixed inset-0 bg-gray-300/20 flex justify-center items-center shadow-lg"
   >
     <div class="w-full max-w-lg">
       <div
